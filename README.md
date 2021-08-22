@@ -12,6 +12,6 @@ unstripped_managed\UnityEngine.dll (or unstripped_corlib\UnityEngine.dll)
 unstripped_managed\UnityEngine.CoreModule.dll (or unstripped_corlib\UnityEngine.CoreModule.dll)
 unstripped_managed\UnityEngine.PhysicsModule.dll (or unstripped_corlib\UnityEngine.PhysicsModule.dll)
 
-## Auto NOTE
+## Auto Copy mod After Build
 
 If you want to copy the mod into your BepInEx plugins folder automatically after build, set an environment variable called 'ValheimBepInExPlugins' to your full valheim bepinex plugins path (ex: C:\Steam\steamapps\common\Valheim\BepInEx\plugins)
