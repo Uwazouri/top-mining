@@ -3,7 +3,7 @@ A Valheim mod using BepInEx to make mining deposits less of a hassle
 
 ## Reference Libraries
 
-For project to work we need some libraries from the Valheim directory (BepInEx installed). Copy these files from your personal Valheim installation directory to the Lib folder:
+For project to work we need some libraries from the Valheim directory (BepInEx installed). Copy these files from your personal Valheim installation directory to a new folder "TopMining/Libs" from the project root:
 
 BepInEx\core\0Harmony.dll
 BepInEx\core\BepInEx.dll
