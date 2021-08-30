@@ -11,6 +11,8 @@ valheim_Data\Managed\assembly_valheim.dll
 unstripped_managed\UnityEngine.dll (or unstripped_corlib\UnityEngine.dll)
 unstripped_managed\UnityEngine.CoreModule.dll (or unstripped_corlib\UnityEngine.CoreModule.dll)
 unstripped_managed\UnityEngine.PhysicsModule.dll (or unstripped_corlib\UnityEngine.PhysicsModule.dll)
+unstripped_managed\UnityEngine.InputModule.dll (or unstripped_corlib\UnityEngine.InputModule.dll)
+unstripped_managed\UnityEngine.InputLegacyModule.dll (or unstripped_corlib\UnityEngine.InputLegacyModule.dll)
 
 ## Auto Copy mod After Build
 
