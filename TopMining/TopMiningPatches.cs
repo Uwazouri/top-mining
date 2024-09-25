@@ -12,7 +12,12 @@ namespace TopMining
         static void Prefix(ref MineRock5 __instance, ref HitData hit)
         {
             if (!TopMining.TopMiningActive)
+            {
+                __instance.m_hitEffectAreaCenter = true;
                 return;
+            }
+            
+            __instance.m_hitEffectAreaCenter = false;
             // if MineRock5 instance has more than 1 child colliders
             var childColliders = __instance.GetComponentsInChildren<Collider>();
             if (childColliders.Length >= 1)
